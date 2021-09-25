@@ -28,8 +28,8 @@ const Carts = (props) => {
                     <h5 className="col-12">Your <span className="text-danger">Selection</span></h5>
                 </div><br />
                 {
-                    props.cartBands.map( cartBand => 
-                    <div className="row m-2">
+                    props.cartBands.map( cartBand =>
+                    <div className="row m-2" key={cartBand.Show_cost}>
                         <img className="col-4" src={cartBand.image} alt="" />
                         <h6 className="col-4">{cartBand.name}</h6>
                         <h6 className="col-4">{cartBand.genre}</h6>
