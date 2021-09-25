@@ -1,0 +1,18 @@
+.nav-part{
+    background-color: rgb(252, 210, 217);
+    height: 30px;
+}
+.nav-part a{
+    text-decoration: none;
+    padding: 70px;
+    color: red;
+    margin-top: 20px;
+    font-size: large;
+}
+.nav-part a:hover {
+    background-color: white;
+    transition: background-color 500ms ease-in-out;
+}
+.input-field{
+    margin: 0 300px;
+}
