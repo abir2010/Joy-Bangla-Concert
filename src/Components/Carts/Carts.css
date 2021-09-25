@@ -1,0 +1,18 @@
+.cart{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(134, 134, 134);
+}
+.details-cart{
+    padding: 5px 10px;
+}
+.btn-1{
+    color: white;
+    padding: 3px 45px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+.btn-2{
+    border: 0;
+}

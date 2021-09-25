@@ -1,0 +1,10 @@
+.card-body, .card-footer{
+    background-color: rgb(180, 180, 180);
+}
+.single-card:hover{
+    transform: scale(1.04);
+    transition: transform 300ms ease-in-out;
+}
+.card-body{
+    line-height: 10px;
+}
