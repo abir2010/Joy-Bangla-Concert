@@ -4,7 +4,6 @@ import { faGuitar } from '@fortawesome/free-solid-svg-icons';
 import './Carts.css';
 
 const Carts = (props) => {
-    const {name,Show_cost} = props.cartBands;
     let sum = 0;
     for(let i=0; i<props.cartBands.length; i++){
         sum += props.cartBands[i].Show_cost;
@@ -24,12 +23,18 @@ const Carts = (props) => {
                     <div className="col-2"><FontAwesomeIcon icon={faGuitar} /></div>
                     <h6 className="col-5">Grand Total</h6>
                     <h6 className="col-5">: {sum} taka</h6>
-                </div>
+                </div><br />
                 <div className="row">
-                    <div className="col-2"></div>
-                    <h6 className="col-5"></h6>
-                    <h6 className="col-5"></h6>
-                </div>
+                    <h5 className="col-12">Your <span className="text-danger">Selection</span></h5>
+                </div><br />
+                {
+                    props.cartBands.map( cartBand => 
+                    <div className="row m-2">
+                        <img className="col-4" src={cartBand.image} alt="" />
+                        <h6 className="col-4">{cartBand.name}</h6>
+                        <h6 className="col-4">{cartBand.genre}</h6>
+                    </div> )
+                }
                 <button className="btn-1 btn-danger"><small>Click to send suggession</small></button> <br />
                 <button className="btn-2 pb-4"><small>Cancel</small></button>
             </div>
