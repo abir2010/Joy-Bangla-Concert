@@ -1,6 +1,6 @@
 <h1 align="center">Project - Joy Bangla Concert 2021</h1>
 
-<p align="center">Live site link [Click here](https://joy-bangla-concert-2021.netlify.app/)</p>
+Live site link [Click here](https://joy-bangla-concert-2021.netlify.app/)
 
 ## Available Scripts
 
