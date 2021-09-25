@@ -2,7 +2,10 @@
 
 Live site link [Click here](https://joy-bangla-concert-2021.netlify.app/)
 
-## hi
+## About this project
+- With the help of this website event manager can get a suggession of what people want from the music festival.
+- Music lovers can share their opinions through this website.
+- People can get an overview of the arrangement cost behind a festival like this much big.
 
 ## Available Scripts
 
